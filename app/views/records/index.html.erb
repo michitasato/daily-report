@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>売上日報表一覧</title>
+    </head>
+    <body>
+
+
+<h1>売上日報表一覧</h1>
+
+<table class="design01">
+    <tr>
+        <th>店舗</th>
+        <th>売上日</th>
+        <th>調剤売上</th>
+        <th>申請者</th>
+    </tr>
+<% @records.each do |record| %>
+    <tr>
+        <td><%= record.store %></td>
+        <td><%= record.date %></td>
+        <td><%= record.dispensing_fee %></td>
+        <td><%= record.applicant %></td>
+    </tr>
+<% end %>
+</table>
+
+
+</body>
+</html>
