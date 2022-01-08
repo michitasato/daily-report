@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
+      /* index.htmlの表 */
 .design01 {
     width: 100%;
     text-align: center;
@@ -18,3 +18,23 @@
     padding: 10px;
     border: solid 1px #778ca3;
    }
+
+     /* new.htmlの表 */
+
+ul li {
+    list-style: none;
+    margin-top:10px
+}
+label {
+    margin-right: 10px;
+    width: 100px;
+    float: left;
+}
+ul {
+    width: 500px;
+    margin: 0 auto;
+}
+input#button {
+    display: block;
+    margin: 0 auto;
+}
