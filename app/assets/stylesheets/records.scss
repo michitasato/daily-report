@@ -30,7 +30,26 @@ header {
     font-size: 14px;
  }
 
-/*      index.htmlの表     */
+/*    CSV変換用のボタン     */
+a.btn {
+	display: block;
+    border-radius : 5%; 
+	position: relative;
+	width: 160px;
+	padding: 0.8em;
+    margin-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+	background: #def7ff;
+}
+a.btn:hover {
+	 opacity:0.8;
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+
+/*    売上日報表一覧の表     */
 
 body{
     margin-top:200px;
