@@ -10,6 +10,22 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
+
+  <header>
+    <h1>
+      <%= link_to("売上日報アプリ", "/") %>
+    </h1>
+    <ul class="header-menus">
+    <li>
+      
+    </li>
+    <li>
+      <!-- ここにlink_toメソッドを用いて投稿一覧ページへのリンクを作成してください -->
+      <%= link_to("日報入力フォーム", "/records/new") %>
+    </li>
+  </ul>
+　</header>
+
     <%= yield %>
   </body>
 </html>

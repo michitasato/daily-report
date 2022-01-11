@@ -2,7 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-      /* index.htmlの表 */
+
+/*      header     */
+header {
+    padding: 30px 4% 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #def7ff;
+    display: flex;
+    align-items: center;
+ }
+
+ a {	
+    text-decoration: none;
+    color: #4b4b4b;
+ }
+
+ ul.header-menus {
+    list-style: none;
+    margin: 0;
+    display: flex;
+ }
+
+ ul.header-menus li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+ }
+
+/*      index.htmlの表     */
+
+body{
+    margin-top:200px;
+}
+
 .design01 {
     width: 100%;
     text-align: center;
